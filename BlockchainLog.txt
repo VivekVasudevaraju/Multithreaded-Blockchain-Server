@@ -1,0 +1,126 @@
+------------------------------------------ PROCESS 0 ------------------------------------------
+
+vivekraju@Viveks-MacBook-Air Blockchain % javac -cp "gson-2.8.2.jar:" Blockchain.java
+vivekraju@Viveks-MacBook-Air Blockchain % java -cp "gson-2.8.2.jar:" Blockchain 0   
+Started Public Key Server running on port 4710
+Started Unverified Block Server running on port 4820
+Started Updated Blockchain Server running on port 4930
+Started Broadcast Server running on port 4200
+Received Process 1 Public Key
+Received Process 0 Public Key
+Received Process 2 Public Key
+Adding block record from Process 2 to priority queue
+Adding block record from Process 2 to priority queue
+Adding block record from Process 2 to priority queue
+Adding block record from Process 2 to priority queue
+Adding block record from Process 0 to priority queue
+Adding block record from Process 0 to priority queue
+Adding block record from Process 0 to priority queue
+Adding block record from Process 0 to priority queue
+Adding block record from Process 1 to priority queue
+Adding block record from Process 1 to priority queue
+Adding block record from Process 1 to priority queue
+Adding block record from Process 1 to priority queue
+Solving blockchain
+John Smith -> Process 0 solved a block. Adding to BlockchainLedger.json
+Solving blockchain
+Solving blockchain
+Joe Blow -> Process 1 solved a block. Adding to BlockchainLedger.json
+Solving blockchain
+Julie Wilson -> Process 0 solved a block. Adding to BlockchainLedger.json
+Solving blockchain
+Solving blockchain
+Sally McCutty -> Process 2 solved a block. Adding to BlockchainLedger.json
+Solving blockchain
+Solving blockchain
+Rita Vita -> Process 2 solved a block. Adding to BlockchainLedger.json
+Solving blockchain
+Wayne Blaine -> Process 1 solved a block. Adding to BlockchainLedger.json
+Solving blockchain
+Bruce Lee -> Process 1 solved a block. Adding to BlockchainLedger.json
+Solving blockchain
+Solving blockchain
+Wei Xu -> Process 2 solved a block. Adding to BlockchainLedger.json
+John Kennedy -> Process 2 solved a block. Adding to BlockchainLedger.json
+Helen Keller -> Process 2 solved a block. Adding to BlockchainLedger.json
+Abraham Lincoln -> Process 1 solved a block. Adding to BlockchainLedger.json
+Blockchain fully solved.
+Shutting down...
+Printed output to BlockchainLedger.json
+
+------------------------------------------ PROCESS 1 ------------------------------------------
+
+vivekraju@Viveks-MacBook-Air Blockchain % java -cp "gson-2.8.2.jar:" Blockchain 1   
+Started Public Key Server running on port 4711
+Started Unverified Block Server running on port 4821
+Started Updated Blockchain Server running on port 4931
+Started Broadcast Server running on port 4201
+Received Process 1 Public Key
+Received Process 0 Public Key
+Received Process 2 Public Key
+Adding block record from Process 0 to priority queue
+Adding block record from Process 0 to priority queue
+Adding block record from Process 0 to priority queue
+Adding block record from Process 0 to priority queue
+Adding block record from Process 2 to priority queue
+Adding block record from Process 1 to priority queue
+Adding block record from Process 2 to priority queue
+Adding block record from Process 2 to priority queue
+Adding block record from Process 1 to priority queue
+Adding block record from Process 1 to priority queue
+Adding block record from Process 1 to priority queue
+Adding block record from Process 2 to priority queue
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Blockchain fully solved.
+Shutting down...
+Printed output to BlockchainLedger.json
+
+
+------------------------------------------ PROCESS 2 ------------------------------------------
+
+vivekraju@Viveks-MacBook-Air Blockchain % java -cp "gson-2.8.2.jar:" Blockchain 2   
+Started Public Key Server running on port 4712
+Started Unverified Block Server running on port 4822
+Started Updated Blockchain Server running on port 4932
+Started Broadcast Server running on port 4202
+Received Process 0 Public Key
+Received Process 1 Public Key
+Received Process 2 Public Key
+Adding block record from Process 0 to priority queue
+Adding block record from Process 0 to priority queue
+Adding block record from Process 2 to priority queue
+Adding block record from Process 2 to priority queue
+Adding block record from Process 2 to priority queue
+Adding block record from Process 2 to priority queue
+Adding block record from Process 0 to priority queue
+Adding block record from Process 0 to priority queue
+Adding block record from Process 1 to priority queue
+Adding block record from Process 1 to priority queue
+Adding block record from Process 1 to priority queue
+Adding block record from Process 1 to priority queue
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Solving blockchain
+Blockchain fully solved.
+Shutting down...
+Printed output to BlockchainLedger.json
